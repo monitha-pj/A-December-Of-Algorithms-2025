@@ -1,9 +1,8 @@
-List=eval(input())
-list_s=[]
-summ=0
-for i in List:
-  if List.count(i)==1:
-    list_s.append(i)
-summ=sum(list_s)
+n = int(input())
+arr = list(map(int, input().split()))
+summ = 0
+for i in arr:
+    if arr.count(i) == 1:
+        summ += i
 print(summ)
 
